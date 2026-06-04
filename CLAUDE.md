@@ -14,6 +14,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ---
 
+## 開発環境
+
+仮想環境は `/venv` にある。コマンド実行時は必ず仮想環境を有効化すること。
+
+```powershell
+# Windows (PowerShell)
+.\venv\Scripts\Activate.ps1
+```
+
+---
+
 ## データソース
 
 PostgreSQL データベースサーバーに接続している。テーブル定義は [docs/trademark_db.html](docs/trademark_db.html) を参照（ブラウザで開き、左ペインからテーブルを選択すること）。

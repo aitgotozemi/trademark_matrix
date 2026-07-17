@@ -1,5 +1,5 @@
 .env
 docs/trademark_db.html
-output/
+output/*.csv
 __pycache__/
 *.pyc
